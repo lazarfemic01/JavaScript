@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-3">
+      <div class="buttondiv">
+        <button onClick="window.location.href=window.location.href">
+          New game
+        </button>
+      </div>
+      <div class="flex-box-rps" id="flex-box-rps-div">
+        <img
+          id="rock"
+          src="images/znak-3.jpg"
+          height="250"
+          width="250"
+          alt=""
+          onclick="rpsGame(this)"
+        />
+        <img
+          id="paper"
+          src="images/znak-1.jpg"
+          height="250"
+          width="250"
+          alt=""
+          onclick="rpsGame(this)"
+        />
+        <img
+          id="scissors"
+          src="images/znak-2.jpg"
+          height="250"
+          width="250"
+          alt=""
+          onclick="rpsGame(this)"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
