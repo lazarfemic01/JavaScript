@@ -491,6 +491,12 @@ class park {
     this.buildYear = buildYear;
     this.numberOfTrees = numberOfTrees;
     this.area = area;
+
+    if (numberOfTrees >= 1000) {
+      console.log(`${parkName} park has exactly(or more) than 1000 trees.`);
+    } else {
+      console.log(`${parkName} park does not have 1000 trees.`);
+    }
   }
   treeDensity() {
     const density = parseInt(this.numberOfTrees) / parseInt(this.area);
@@ -500,12 +506,12 @@ class park {
   }
   calcuAge() {
     const parkAge = new Date().getFullYear() - this.buildYear;
-    console.log(parkAge);
+    return parkAge;
   }
 }
 
 const park1 = new park("Njegošev", 2000, 500, "150m2");
-const park2 = new park("Kraljev", 2005, 1000, "200m2");
+const park2 = new park("Kraljev", 2005, 1200, "200m2");
 const park3 = new park("Gorica", 1999, 1500, "1000m2");
 const parks = [park1, park2, park3];
 
@@ -515,21 +521,39 @@ console.log(average);
 park1.treeDensity();
 park2.treeDensity();
 park3.treeDensity();
-park1.calcuAge();
-park2.calcuAge();
-park3.calcuAge();
 
 class street {
-  constructor(name, buildYear, length, classification) {
+  constructor(name, buildYear, length) {
     this.name = name;
     this.buildYear = buildYear;
     this.length = length;
-    this.classification = classification;
+
+    if (length >= 1 && length < 2) {
+      console.log(`${this.name} street is tiny.`);
+    } else if (length >= 2 && length < 3) {
+      console.log(`${this.name} street is small.`);
+    } else if (length >= 3 && length < 5) {
+      console.log(`${this.name} street is big.`);
+    } else {
+      console.log(`${this.name} street is huge.`);
+    }
+  }
+  averageLength() {
+    const streetLength = this.length;
+    return streetLength;
   }
 }
 
-const street1 = new street("Nikca od Rovina", 2000, "1km", "tiny");
-const street2 = new street("Belvederska", 2005, "2km", "small");
-const street3 = new street("Fruškogorska", 2010, "3km", "normal");
-const street4 = new street("Marka Miljanova", 2012, "5km", "big");
+const street1 = new street("Nikca od Rovina", 2000, 1);
+const street2 = new street("Belvederska", 2005, 2);
+const street3 = new street("Fruškogorska", 2010, 3);
+const street4 = new street("Marka Miljanova", 2012, 5);
 //console.log(street1);
+
+const averageLength =
+  (street1.averageLength() +
+    street2.averageLength() +
+    street3.averageLength() +
+    street4.averageLength()) /
+  4;
+console.log(` Average length of the streets is ${averageLength} kilometers`);

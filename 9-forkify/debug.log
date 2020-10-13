@@ -1,0 +1,50 @@
+[1005/105017.484:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/105246.231:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/105706.834:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1005/111422.730:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/102934.416:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/103934.415:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/103934.415:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/104434.418:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/104819.338:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/105934.418:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/111434.418:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1006/112934.419:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1007/105257.740:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1007/105257.754:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1007/110325.163:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1007/110325.163:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/111331.258:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/111331.281:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/112331.259:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/112331.259:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/112331.259:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/112331.259:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/112831.282:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/112831.282:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/114331.282:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/114331.282:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/114825.867:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/114825.868:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/115505.961:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/115505.961:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/120505.960:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/120505.960:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/120505.960:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/120505.960:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/121005.961:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/121005.961:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/122505.962:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/122505.962:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1010/120919.609:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1010/123903.214:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1011/120035.246:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/111824.691:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1012/112824.691:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1012/112824.691:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Katarina\AppData\Local\Google\Chrome\User Data\Crashpad\reports\9bc5d2fa-f20f-45d8-ab4f-f6a696505773.dmp: The system cannot find the file specified. (0x2)
+[1012/112824.692:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/114047.425:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/123044.852:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/130150.756:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/102719.623:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/123951.125:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
